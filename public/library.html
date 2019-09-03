@@ -37,11 +37,14 @@
     <div class="container">
       <h2 class="text-center">Books Information</h2>
         <table class="table">
-<tr><th>Title</th><th>Author</th><th>Year</th><th>Publisher</th><th>Page Count</th><th>MSRP</th></tr>
-<tr><td>Cosmos</td><td>Ree Grigaut</td><td>02/02/2005</td><td>Davis Group</td><td>554</td><td>71.59</td></tr>
-<tr><td>Legend of Sleepy Hollow, The</td><td>Nat Mackness</td><td>07/01/1992</td><td>Bruen, Aufderhar and Marks</td><td>144</td><td>39.99</td></tr>
-<tr><td>Babysitter Wanted</td><td>Arnold Thickpenny</td><td>01/01/2010</td><td>Marvin, Bergstrom and Abernathy</td><td>656</td><td>100.00</td></tr>
-<tr><td>Garden State</td><td>Bren Lum</td><td>05/21/1993</td><td>Kuvalis, Boyer and Rodriguez</td><td>134</td><td>9.99</td></tr>
+          <thead>
+    <tr><th>Title</th><th>Author</th><th>Year</th><th>Publisher</th><th>Page Count</th><th>MSRP</th></tr></thead>
+    <tbody>
+    <tr><td>Cosmos</td><td>Ree Grigaut</td><td>02/02/2005</td><td>Davis Group</td><td>554</td><td>71.59</td></tr>
+    <tr><td>Legend of Sleepy Hollow, The</td><td>Nat Mackness</td><td>07/01/1992</td><td>Bruen, Aufderhar and Marks</td><td>144</td><td>39.99</td></tr>
+    <tr><td>Babysitter Wanted</td><td>Arnold Thickpenny</td><td>01/01/2010</td><td>Marvin, Bergstrom and Abernathy</td><td>656</td><td>100.00</td></tr>
+    <tr><td>Garden State</td><td>Bren Lum</td><td>05/21/1993</td><td>Kuvalis, Boyer and Rodriguez</td><td>134</td><td>9.99</td></tr>
+    </tbody>
 </table>
 <hr>
 <h2 class="text-center">Enter new books</h2>
@@ -56,7 +59,7 @@
   </div>
   <div class="form-group">
     <label for="year">Year</label>
-    <input type="date" class="form-control" id="year" placeholder="Publishing Year">
+    <input type="date" class="form-control" id="year">
   </div>
   <div class="form-group">
     <label for="publisher">Publisher</label>
@@ -72,6 +75,7 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<br>
       </div>
 </body>
 </html>

@@ -1,3 +1,29 @@
 body {
- background-image: url("/img/background.jpg");
+  background: url("../img/background.png");
+}
+
+p {
+  font-family: "Courier New";
+  font-color:
+}
+h1, h2 {
+  font-family: "Georgia";
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+tr:hover {background-color: #ffffff;}
+
+.form-control{
+  border: 1px dotted #999;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+#main-box {
+  border: 1px;
+  border-radius: 4px;
+  font-size: 16px;
 }

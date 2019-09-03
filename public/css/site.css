@@ -23,7 +23,8 @@ tr:hover {background-color: #ffffff;}
 }
 
 #main-box {
-  border: 1px;
-  border-radius: 4px;
+  border: 1px coral;
+  border-color: coral;
+  border-radius: 3px;
   font-size: 16px;
 }

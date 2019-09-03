@@ -2,12 +2,14 @@ body {
   background: url("../img/background.png");
 }
 
-p {
-  font-family: "Courier New";
-  font-color:
+p, cite {
+  font-family: "Garamond";
+  color: brown;
+  font-size: 16px;
 }
 h1, h2 {
   font-family: "Georgia";
+  color: grey;
 }
 
 table, th, td {
@@ -26,4 +28,7 @@ tr:hover {background-color: #ffffff;}
   border: 4px solid gold;
   border-radius: 6px;
   font-size: 16px;
+}
+a:link {
+  color: red;
 }
